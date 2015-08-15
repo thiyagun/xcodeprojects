@@ -32,6 +32,7 @@
                         <viewControllerLayoutGuide type="bottom" id="64C-fP-Sd7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="M6K-6Y-D8n">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TiL-wl-a4Z">
@@ -161,6 +162,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Q8M-hH-GVB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bTk-Fb-hYc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tex-4P-o2j">
@@ -291,6 +293,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1qp-ke-xNJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QQ8-IV-Foy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w11-UC-utN">
