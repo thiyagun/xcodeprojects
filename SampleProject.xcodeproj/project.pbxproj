@@ -16,6 +16,7 @@
 		134106551B7ED19300625BC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106541B7ED19300625BC4 /* LoginViewController.swift */; };
 		134106571B7ED1B800625BC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106561B7ED1B800625BC4 /* SignUpViewController.swift */; };
 		1341065A1B7ED22400625BC4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106591B7ED22400625BC4 /* MenuTableViewController.swift */; };
+		1341065C1B7EF7BE00625BC4 /* FacilityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341065B1B7EF7BE00625BC4 /* FacilityTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		134106541B7ED19300625BC4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		134106561B7ED1B800625BC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		134106591B7ED22400625BC4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		1341065B1B7EF7BE00625BC4 /* FacilityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				134106591B7ED22400625BC4 /* MenuTableViewController.swift */,
+				1341065B1B7EF7BE00625BC4 /* FacilityTableViewController.swift */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				134106551B7ED19300625BC4 /* LoginViewController.swift in Sources */,
 				134106321B7EBF7500625BC4 /* ViewController.swift in Sources */,
+				1341065C1B7EF7BE00625BC4 /* FacilityTableViewController.swift in Sources */,
 				1341065A1B7ED22400625BC4 /* MenuTableViewController.swift in Sources */,
 				134106571B7ED1B800625BC4 /* SignUpViewController.swift in Sources */,
 				134106301B7EBF7500625BC4 /* AppDelegate.swift in Sources */,
@@ -469,6 +473,7 @@
 				1341064B1B7EBF7500625BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1341064C1B7EBF7500625BC4 /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +482,7 @@
 				1341064E1B7EBF7500625BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
