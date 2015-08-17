@@ -14,6 +14,20 @@
 		1330AFF41B805C0600E2D819 /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1330AFF31B805C0600E2D819 /* Immunization.storyboard */; };
 		13377F341B8038790059F691 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13377F331B8038790059F691 /* MenuModel.swift */; };
 		13377F381B803DD00059F691 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13377F371B803DD00059F691 /* MenuCell.swift */; };
+		134068111B817854005E1875 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340680E1B817854005E1875 /* Alert.swift */; };
+		134068121B817854005E1875 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340680F1B817854005E1875 /* JsonHelper.swift */; };
+		134068131B817854005E1875 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134068101B817854005E1875 /* ProgressHUD.swift */; };
+		134068171B817888005E1875 /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134068141B817888005E1875 /* PopDatePicker.swift */; };
+		134068181B817888005E1875 /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134068151B817888005E1875 /* PopDateViewController.swift */; };
+		134068191B817888005E1875 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134068161B817888005E1875 /* PopDateViewController.xib */; };
+		134068221B817946005E1875 /* AllergyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681A1B817946005E1875 /* AllergyModel.swift */; };
+		134068231B817946005E1875 /* AppointButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681B1B817946005E1875 /* AppointButtonModel.swift */; };
+		134068241B817946005E1875 /* FamilyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681C1B817946005E1875 /* FamilyHistoryModel.swift */; };
+		134068251B817946005E1875 /* ImmunizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681D1B817946005E1875 /* ImmunizationModel.swift */; };
+		134068261B817946005E1875 /* InsuranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681E1B817946005E1875 /* InsuranceModel.swift */; };
+		134068271B817946005E1875 /* MedicalHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340681F1B817946005E1875 /* MedicalHistoryModel.swift */; };
+		134068281B817946005E1875 /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134068201B817946005E1875 /* MedicationModel.swift */; };
+		134068291B817946005E1875 /* VitalSignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134068211B817946005E1875 /* VitalSignModel.swift */; };
 		134106301B7EBF7500625BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341062F1B7EBF7500625BC4 /* AppDelegate.swift */; };
 		134106321B7EBF7500625BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106311B7EBF7500625BC4 /* ViewController.swift */; };
 		134106351B7EBF7500625BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134106331B7EBF7500625BC4 /* Main.storyboard */; };
@@ -24,12 +38,6 @@
 		134106571B7ED1B800625BC4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106561B7ED1B800625BC4 /* SignUpViewController.swift */; };
 		1341065A1B7ED22400625BC4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134106591B7ED22400625BC4 /* MenuTableViewController.swift */; };
 		1341065C1B7EF7BE00625BC4 /* FacilityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341065B1B7EF7BE00625BC4 /* FacilityTableViewController.swift */; };
-		13D66BA11B8078D6009BE9D5 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BA01B8078D6009BE9D5 /* JsonHelper.swift */; };
-		13D66BA31B8078EA009BE9D5 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BA21B8078EA009BE9D5 /* ProgressHUD.swift */; };
-		13D66BA51B807901009BE9D5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BA41B807901009BE9D5 /* Alert.swift */; };
-		13D66BA71B807929009BE9D5 /* PopDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D66BA61B807929009BE9D5 /* PopDateViewController.xib */; };
-		13D66BA91B807963009BE9D5 /* PopDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BA81B807963009BE9D5 /* PopDateViewController.swift */; };
-		13D66BAB1B80796F009BE9D5 /* PopDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BAA1B80796F009BE9D5 /* PopDatePicker.swift */; };
 		13D66BAD1B807B90009BE9D5 /* FacilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BAC1B807B90009BE9D5 /* FacilityCell.swift */; };
 		13D66BAF1B807BA5009BE9D5 /* ProviderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BAE1B807BA5009BE9D5 /* ProviderCell.swift */; };
 		13D66BB11B807BBC009BE9D5 /* InsuranceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BB01B807BBC009BE9D5 /* InsuranceCell.swift */; };
@@ -47,13 +55,6 @@
 		13D66BCB1B807DF9009BE9D5 /* MedicationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BCA1B807DF9009BE9D5 /* MedicationTableViewController.swift */; };
 		13D66BCD1B807E29009BE9D5 /* PatientHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BCC1B807E29009BE9D5 /* PatientHistoryTableViewController.swift */; };
 		13D66BCF1B807E58009BE9D5 /* FamilyHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BCE1B807E58009BE9D5 /* FamilyHistoryTableViewController.swift */; };
-		13D66BD71B807EF2009BE9D5 /* InsuranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD01B807EF2009BE9D5 /* InsuranceModel.swift */; };
-		13D66BD81B807EF2009BE9D5 /* ImmunizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD11B807EF2009BE9D5 /* ImmunizationModel.swift */; };
-		13D66BD91B807EF2009BE9D5 /* VitalSignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD21B807EF2009BE9D5 /* VitalSignModel.swift */; };
-		13D66BDA1B807EF2009BE9D5 /* AllergyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD31B807EF2009BE9D5 /* AllergyModel.swift */; };
-		13D66BDB1B807EF2009BE9D5 /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD41B807EF2009BE9D5 /* MedicationModel.swift */; };
-		13D66BDC1B807EF2009BE9D5 /* MedicalHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD51B807EF2009BE9D5 /* MedicalHistoryModel.swift */; };
-		13D66BDD1B807EF2009BE9D5 /* FamilyHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D66BD61B807EF2009BE9D5 /* FamilyHistoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,20 @@
 		1330AFF31B805C0600E2D819 /* Immunization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Immunization.storyboard; sourceTree = "<group>"; };
 		13377F331B8038790059F691 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		13377F371B803DD00059F691 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		1340680E1B817854005E1875 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1340680F1B817854005E1875 /* JsonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
+		134068101B817854005E1875 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		134068141B817888005E1875 /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDatePicker.swift; sourceTree = "<group>"; };
+		134068151B817888005E1875 /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDateViewController.swift; sourceTree = "<group>"; };
+		134068161B817888005E1875 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDateViewController.xib; sourceTree = "<group>"; };
+		1340681A1B817946005E1875 /* AllergyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllergyModel.swift; sourceTree = "<group>"; };
+		1340681B1B817946005E1875 /* AppointButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointButtonModel.swift; sourceTree = "<group>"; };
+		1340681C1B817946005E1875 /* FamilyHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyHistoryModel.swift; sourceTree = "<group>"; };
+		1340681D1B817946005E1875 /* ImmunizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationModel.swift; sourceTree = "<group>"; };
+		1340681E1B817946005E1875 /* InsuranceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceModel.swift; sourceTree = "<group>"; };
+		1340681F1B817946005E1875 /* MedicalHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalHistoryModel.swift; sourceTree = "<group>"; };
+		134068201B817946005E1875 /* MedicationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
+		134068211B817946005E1875 /* VitalSignModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalSignModel.swift; sourceTree = "<group>"; };
 		1341062A1B7EBF7500625BC4 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1341062E1B7EBF7500625BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1341062F1B7EBF7500625BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,12 +103,6 @@
 		134106561B7ED1B800625BC4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		134106591B7ED22400625BC4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		1341065B1B7EF7BE00625BC4 /* FacilityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityTableViewController.swift; sourceTree = "<group>"; };
-		13D66BA01B8078D6009BE9D5 /* JsonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonHelper.swift; path = ../../../../Downloads/JsonHelper.swift; sourceTree = "<group>"; };
-		13D66BA21B8078EA009BE9D5 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = ../../../../Downloads/ProgressHUD.swift; sourceTree = "<group>"; };
-		13D66BA41B807901009BE9D5 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = ../../../../Downloads/Alert.swift; sourceTree = "<group>"; };
-		13D66BA61B807929009BE9D5 /* PopDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PopDateViewController.xib; path = ../../../../Downloads/PopDateViewController.xib; sourceTree = "<group>"; };
-		13D66BA81B807963009BE9D5 /* PopDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopDateViewController.swift; path = ../../../../Downloads/PopDateViewController.swift; sourceTree = "<group>"; };
-		13D66BAA1B80796F009BE9D5 /* PopDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopDatePicker.swift; path = ../../../../Downloads/PopDatePicker.swift; sourceTree = "<group>"; };
 		13D66BAC1B807B90009BE9D5 /* FacilityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityCell.swift; sourceTree = "<group>"; };
 		13D66BAE1B807BA5009BE9D5 /* ProviderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderCell.swift; sourceTree = "<group>"; };
 		13D66BB01B807BBC009BE9D5 /* InsuranceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceCell.swift; sourceTree = "<group>"; };
@@ -111,13 +120,6 @@
 		13D66BCA1B807DF9009BE9D5 /* MedicationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationTableViewController.swift; sourceTree = "<group>"; };
 		13D66BCC1B807E29009BE9D5 /* PatientHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientHistoryTableViewController.swift; sourceTree = "<group>"; };
 		13D66BCE1B807E58009BE9D5 /* FamilyHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyHistoryTableViewController.swift; sourceTree = "<group>"; };
-		13D66BD01B807EF2009BE9D5 /* InsuranceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsuranceModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/InsuranceModel.swift; sourceTree = "<group>"; };
-		13D66BD11B807EF2009BE9D5 /* ImmunizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImmunizationModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/ImmunizationModel.swift; sourceTree = "<group>"; };
-		13D66BD21B807EF2009BE9D5 /* VitalSignModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VitalSignModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/VitalSignModel.swift; sourceTree = "<group>"; };
-		13D66BD31B807EF2009BE9D5 /* AllergyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllergyModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/AllergyModel.swift; sourceTree = "<group>"; };
-		13D66BD41B807EF2009BE9D5 /* MedicationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicationModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/MedicationModel.swift; sourceTree = "<group>"; };
-		13D66BD51B807EF2009BE9D5 /* MedicalHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicalHistoryModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/MedicalHistoryModel.swift; sourceTree = "<group>"; };
-		13D66BD61B807EF2009BE9D5 /* FamilyHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FamilyHistoryModel.swift; path = ../../../../.Trash/PatientPortal/PatientPortal/FamilyHistoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,13 +238,14 @@
 		134106501B7ED0DB00625BC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				13D66BD01B807EF2009BE9D5 /* InsuranceModel.swift */,
-				13D66BD11B807EF2009BE9D5 /* ImmunizationModel.swift */,
-				13D66BD21B807EF2009BE9D5 /* VitalSignModel.swift */,
-				13D66BD31B807EF2009BE9D5 /* AllergyModel.swift */,
-				13D66BD41B807EF2009BE9D5 /* MedicationModel.swift */,
-				13D66BD51B807EF2009BE9D5 /* MedicalHistoryModel.swift */,
-				13D66BD61B807EF2009BE9D5 /* FamilyHistoryModel.swift */,
+				1340681A1B817946005E1875 /* AllergyModel.swift */,
+				1340681B1B817946005E1875 /* AppointButtonModel.swift */,
+				1340681C1B817946005E1875 /* FamilyHistoryModel.swift */,
+				1340681D1B817946005E1875 /* ImmunizationModel.swift */,
+				1340681E1B817946005E1875 /* InsuranceModel.swift */,
+				1340681F1B817946005E1875 /* MedicalHistoryModel.swift */,
+				134068201B817946005E1875 /* MedicationModel.swift */,
+				134068211B817946005E1875 /* VitalSignModel.swift */,
 				13377F331B8038790059F691 /* MenuModel.swift */,
 			);
 			name = Model;
@@ -265,9 +268,9 @@
 		134106521B7ED11600625BC4 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				13D66BA61B807929009BE9D5 /* PopDateViewController.xib */,
-				13D66BA81B807963009BE9D5 /* PopDateViewController.swift */,
-				13D66BAA1B80796F009BE9D5 /* PopDatePicker.swift */,
+				134068141B817888005E1875 /* PopDatePicker.swift */,
+				134068151B817888005E1875 /* PopDateViewController.swift */,
+				134068161B817888005E1875 /* PopDateViewController.xib */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -275,9 +278,9 @@
 		134106531B7ED12D00625BC4 /* HelperFile */ = {
 			isa = PBXGroup;
 			children = (
-				13D66BA41B807901009BE9D5 /* Alert.swift */,
-				13D66BA01B8078D6009BE9D5 /* JsonHelper.swift */,
-				13D66BA21B8078EA009BE9D5 /* ProgressHUD.swift */,
+				1340680E1B817854005E1875 /* Alert.swift */,
+				1340680F1B817854005E1875 /* JsonHelper.swift */,
+				134068101B817854005E1875 /* ProgressHUD.swift */,
 			);
 			name = HelperFile;
 			sourceTree = "<group>";
@@ -381,7 +384,7 @@
 			files = (
 				134106351B7EBF7500625BC4 /* Main.storyboard in Resources */,
 				1341063A1B7EBF7500625BC4 /* LaunchScreen.xib in Resources */,
-				13D66BA71B807929009BE9D5 /* PopDateViewController.xib in Resources */,
+				134068191B817888005E1875 /* PopDateViewController.xib in Resources */,
 				1330AFF41B805C0600E2D819 /* Immunization.storyboard in Resources */,
 				1330AFEE1B805B9E00E2D819 /* Provider.storyboard in Resources */,
 				1330AFF21B805BD700E2D819 /* Insurance.storyboard in Resources */,
@@ -405,41 +408,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D66BA11B8078D6009BE9D5 /* JsonHelper.swift in Sources */,
 				134106551B7ED19300625BC4 /* LoginViewController.swift in Sources */,
 				13D66BCF1B807E58009BE9D5 /* FamilyHistoryTableViewController.swift in Sources */,
-				13D66BD91B807EF2009BE9D5 /* VitalSignModel.swift in Sources */,
-				13D66BDB1B807EF2009BE9D5 /* MedicationModel.swift in Sources */,
 				13D66BC51B807D77009BE9D5 /* ImmunizationTableViewController.swift in Sources */,
 				13D66BBD1B807C93009BE9D5 /* FamilyHistoryCell.swift in Sources */,
-				13D66BA91B807963009BE9D5 /* PopDateViewController.swift in Sources */,
+				134068241B817946005E1875 /* FamilyHistoryModel.swift in Sources */,
 				13D66BC71B807DA2009BE9D5 /* VitalSignTableViewController.swift in Sources */,
-				13D66BD81B807EF2009BE9D5 /* ImmunizationModel.swift in Sources */,
+				134068121B817854005E1875 /* JsonHelper.swift in Sources */,
+				134068261B817946005E1875 /* InsuranceModel.swift in Sources */,
 				13D66BC31B807D4E009BE9D5 /* InsuranceTableViewController.swift in Sources */,
 				134106321B7EBF7500625BC4 /* ViewController.swift in Sources */,
+				134068251B817946005E1875 /* ImmunizationModel.swift in Sources */,
 				13D66BB91B807C54009BE9D5 /* MedicationCell.swift in Sources */,
 				13D66BCD1B807E29009BE9D5 /* PatientHistoryTableViewController.swift in Sources */,
-				13D66BD71B807EF2009BE9D5 /* InsuranceModel.swift in Sources */,
+				134068281B817946005E1875 /* MedicationModel.swift in Sources */,
+				134068111B817854005E1875 /* Alert.swift in Sources */,
 				13D66BB71B807C2A009BE9D5 /* AllergyCell.swift in Sources */,
+				134068181B817888005E1875 /* PopDateViewController.swift in Sources */,
 				13D66BB51B807BF5009BE9D5 /* VitalCell.swift in Sources */,
 				13D66BBB1B807C7C009BE9D5 /* PatientHistoryCell.swift in Sources */,
 				1341065C1B7EF7BE00625BC4 /* FacilityTableViewController.swift in Sources */,
-				13D66BAB1B80796F009BE9D5 /* PopDatePicker.swift in Sources */,
+				134068221B817946005E1875 /* AllergyModel.swift in Sources */,
 				13D66BB11B807BBC009BE9D5 /* InsuranceCell.swift in Sources */,
 				13D66BAF1B807BA5009BE9D5 /* ProviderCell.swift in Sources */,
+				134068291B817946005E1875 /* VitalSignModel.swift in Sources */,
 				13377F341B8038790059F691 /* MenuModel.swift in Sources */,
 				1341065A1B7ED22400625BC4 /* MenuTableViewController.swift in Sources */,
 				13D66BAD1B807B90009BE9D5 /* FacilityCell.swift in Sources */,
 				13D66BB31B807BD3009BE9D5 /* ImmunizationCell.swift in Sources */,
-				13D66BDC1B807EF2009BE9D5 /* MedicalHistoryModel.swift in Sources */,
+				134068271B817946005E1875 /* MedicalHistoryModel.swift in Sources */,
+				134068131B817854005E1875 /* ProgressHUD.swift in Sources */,
 				134106571B7ED1B800625BC4 /* SignUpViewController.swift in Sources */,
 				13377F381B803DD00059F691 /* MenuCell.swift in Sources */,
 				13D66BC11B807D20009BE9D5 /* ProviderTableViewController.swift in Sources */,
-				13D66BDA1B807EF2009BE9D5 /* AllergyModel.swift in Sources */,
-				13D66BA51B807901009BE9D5 /* Alert.swift in Sources */,
-				13D66BDD1B807EF2009BE9D5 /* FamilyHistoryModel.swift in Sources */,
-				13D66BA31B8078EA009BE9D5 /* ProgressHUD.swift in Sources */,
+				134068231B817946005E1875 /* AppointButtonModel.swift in Sources */,
 				134106301B7EBF7500625BC4 /* AppDelegate.swift in Sources */,
+				134068171B817888005E1875 /* PopDatePicker.swift in Sources */,
 				13D66BCB1B807DF9009BE9D5 /* MedicationTableViewController.swift in Sources */,
 				13D66BC91B807DD0009BE9D5 /* AllergyTableViewController.swift in Sources */,
 			);
