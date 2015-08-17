@@ -22,6 +22,7 @@ class ImmunizationTableViewController: UIViewController ,UITableViewDelegate,UIT
         navTitleBar.title = "Menu"
         tblImmunization.layer.cornerRadius=4.0
         tblImmunization.tableFooterView = UIView(frame: CGRect.zeroRect)
+        tblImmunization.layer.backgroundColor=UIColor.greenColor().CGColor
         ProgressHUD.sharedHUD.showInView(self.view, withHeader: "Loading", andFooter: "Please wait", progressBar: true)
         
         var functionName: String = "immunization/"
